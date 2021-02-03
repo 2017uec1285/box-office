@@ -14,7 +14,7 @@ const ShowCard = ({ id, name, image, summary }) => {
       <h1>{name}</h1>
       <p>{summaryAsText}</p>
       <div className="btns">
-        <Link to={`/shows/${id}`}>Read more</Link>
+        <Link to={`/show/${id}`}>Read more</Link>
         <button type="button">rate me</button>
       </div>
     </StyledShowCard>
