@@ -14,7 +14,7 @@ const Home = () => {
       return <div>No result match.</div>;
     }
     if (results && results.length > 0) {
-      console.log(results);
+      // console.log(results);
       return results[0].show ? (
         <ShowGrid data={results} />
       ) : (
